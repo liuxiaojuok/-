@@ -1,0 +1,139 @@
+
+https://zhuanlan.zhihu.com/p/616724555
+一、注册
+Midjourney 运行在 Discord服务器中，所以在使用之前你需要注册一个 Discord 账号，邮箱即可。
+地址 http://discord.com 可以使用网页版或者下载客户端使用，为了以后使用方便这里建议下载客户端，不只是 Midjourney， discord上面还有很多好玩的服务器可自行探索。
+
+
+登录后在左边栏点击【探索公开服务器】的图标，这时候你看到推荐的各种服务器了，如果不在推荐列表的话可以直接搜索Midjourney 找到。
+
+
+
+加入服务器后左侧可以看到【NEWCOMER ROOMS】列表就是Midjourney 机器人了。
+
+
+随便选一个机器人进来之后就可以看到来自全世界的网友创建的图片，这些图片是可以公开访问的，所以尽量不要涉及个人隐私。
+
+
+
+
+接下来我们来生成一个自己的图片，在对话框中输入斜杠/，出现提示/imagine /info 等，info的话可以查看自己账号的信息，imagine想象的意思，即让你想象一张想要的图片，我们选中/imagine
+
+
+
+
+输入 ：23 years old chinese girl with a cat
+
+
+
+
+
+等待一会将会看到为我们生成的图片，你可以点击图片在浏览器中打开，即可下载。
+
+U1、U2、U3、U4 代表显示的四张图，点击其中一个将会再次生成高清大图
+
+V1、V2、V3、V4 则是样式和细节的调整。
+
+
+
+点击U1创建的大图
+
+
+如果你觉得质量还不够的话可以点击“Beta Upscale Redo”继续创建更精细的图片
+
+
+
+二、Midjourney prompt 提示语与参数技巧
+提示语与参数技巧可以查看官方文档或者在服务器中查看别人是怎么用的学就行了。官方文档还是写得比较详细的建议查看
+从一个例子看起
+
+A young adult muscular viking boy standing on the battlefield holding 2 battle axes, face and the axes are covered in red paint, particles, smoke, slightly blurred background, hyper realistic, 8k --ar 9:16 --q 2 --uplight
+
+一个年轻的成人肌肉发达的维京男孩站在战场上，手持2把战斧，脸上和斧头上都涂有红漆，有颗粒，有烟雾，背景略微模糊，超现实
+
+说明
+
+详细的介绍：A young adult muscular viking boy standing on the battlefield holding 2 battle axes, face and the axes are covered in red paint, particles 尽可能的详细描述你要的绘图
+
+环境描述：smoke, slightly blurred background 烟雾、背景模糊、灯光等
+
+风格描述：hyper realistic/cyberpunk/ disney style超现实、赛博朋克、、迪士尼风格等等
+
+分辨率要求：8k
+
+参数：
+
+--ar 9:16
+
+纵横比
+
+--q 2
+
+质量.25, .5, 1, or 2 要花费多少渲染质量时间。默认值为 1。值越高成本越高，值越低成本越低。
+
+--uplight
+
+点击U时，使用light做为改进器，结果更接近原始网格图像。放大后的图像细节更少，更平滑。
+
+
+提示语基本准则
+
+Midjourney Bot 不会像人类那样理解语法、句子结构或单词，在许多情况下，更具体的语义词效果更好。
+
+形容词应尽量明确和精简而不是大，巨大的，很大，超大的。他们可能会被理解为一个同义词。
+
+更少的词意味着每个词对图片的创建都有很关键的影响。
+
+使用逗号、括号和连字符来帮助组织语言描述或想法。
+
+Midjourney Bot 不考虑大写。
+
+细节描述的方法
+
+人或者物: person, animal, character, location, object, etc. 人、动物、人物、地点、物体等。
+
+图片载体形式: photo, painting, illustration, sculpture, doodle, tapestry, etc. 照片、绘画、插图、雕塑、涂鸦、挂毯等。
+
+环境: indoors, outdoors, on the moon, in Narnia, underwater, the Emerald City, etc. 室内、室外、月球上、纳尼亚、水下、翡翠城等。
+
+光: soft, ambient, overcast, neon, studio lights, etc 柔和、环境、阴天、霓虹灯、工作室灯等
+
+颜色: vibrant, muted, bright, monochromatic, colorful, black and white, pastel, etc. 充满活力、柔和、明亮、单色、彩色、黑白、柔和等。
+
+情绪: Sedate, calm, raucous, energetic, etc. 稳重、平静、喧闹、精力充沛等。
+
+构图: Portrait, headshot, closeup, birds-eye view, etc. 人像、爆头、特写、鸟瞰图等。
+高频参数说明
+
+--aspect，--ar 改变比例
+
+--chaos <number 0–100> 混沌值，值越搞，产生的图片想象力越丰富。
+
+--no 从图片上移除一些不需要的物体。
+
+--quality <.25, .5, 1, or 2>, or --q <.25, .5, 1, or 2> 质量，值越高质量越好。
+
+--hd 使用早期的替代模型来生成更大、更不一致的图像。该算法可能适用于抽象和风景图像。
+
+--niji 另一种模型专注于动漫风格的图像。
+--style <4a, 4b or 4c> 在 Midjourney模型版本4的版本之间切换
+
+--version <1, 2, 3, 4, or 5> or --v <1, 2, 3, 4, or 5> 使用不同版本的 Midjourney 算法。当前算法 (V4) 是默认设置。
+
+关于版本上的区别可以查看文档说明
+再看几个例子
+
+a small boy with black eyes and dark hair , smiling , cartoon , super detailed , 8k ,HD --q 2 --uplight --v 4
+
+Head and shoulders portrait of the couple, 8k resolution concept art, dynamic lighting hyperdetailed intricately detailed Splash art trending on ArtStation triadic colors Unreal Engine 5 volumetric lighting
+
+
+A girl 10 years old standing with her mother, looking at the blue skies, it's spring, the flowers are colorful, the green space is green, they are happy, in the sky there are birds, a modren plane and the sunlight
+
+Computer mouse made of tree roots, gorgeous, delicate, detailed, cinematic texture
+
+
+三、Midjourney 上传自定义图片
+将埃隆发射到火星
+
+Make him an astronaut on Mars and wait for the Falcon rocket to land,8k, --q 2

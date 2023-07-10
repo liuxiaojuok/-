@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @available(iOS 13.0.0, *)
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,6 +21,7 @@ struct ContentView: View {
 }
 
 struct ContentView_Previews: PreviewProvider {
+    @available(iOS 13.0.0, *)
     static var previews: some View {
         ContentView()
     }
